@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variable_overrides.css",
+	"sources": [
+		"../scss/variable_overrides.scss"
+	],
+	"sourcesContent": [
+		"$headings-font-family: \"Arial\", Times, serif;\r\n$primary: #c9425e;\r\n$info:    #d91c42 !default;\r\n$dark: #54595c;\r\n$headings-color: #1e0f63;\r\n$card-bg: #ebebeb;\r\n$secondary: #ffffff;"
+	],
+	"names": [],
+	"mappings": ""
+}

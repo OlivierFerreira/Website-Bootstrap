@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	
+	<link rel="stylesheet" href="css/style.css"/>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <title>"Watch it Outside" Boston Edition</title>
+  </head>
+  
+  <body class="bg-secondary">
+	<!-- Navigation Bar -->
+	<div class="bg-dark">
+		<div class="container">
+			<div class="row">
+				<nav class="col navbar navbar-expand-md navbar-dark">
+					<a class="navbar-brand" href="Index.html"><img src="Images/logo.png" width="40" height="30" alt="Site logo"> Watch it Outside <span class="font-italic font-weight-light">Boston Edition</span></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div id="navbarContent" class="collapse navbar-collapse">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="Index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Films.html">Films</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ml-md-auto d-md-flex">
+							<li class="nav-item mr-md-2 mb-2 mb-md-0">
+								<a class="navbar-item btn btn-info" type="button" data-toggle="modal" data-target="#ModalFormLogin">Login</a>
+							</li>
+							<li class="nav-item">
+								<a class="navbar-item btn btn-info" type="button" data-toggle="modal" data-target="#ModalForm">Register</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- Section 1 Welcome Message -->	
+	<div class="card">	
+		<img class="img" src="Images/bg1.jpg" alt="Back-Ground 1">
+		<div class="bg-secondary">
+			<div class="container-fluid mt-auto">
+				<div class="row">
+					<div class="col mt-md-3 card-img-overlay">
+						<div class="jumbotron mt-md-3">
+							<h1>Welcome to Watch it Outside Boston Edition!</h1>
+							<p>We are pleased to share the 35th Boston Film Festival program for feature, documentary and short films running from August 5th to 8th of 2020.</p>
+							<p>The web site will be updated with details as they are added. There will be press interviews and photos on the red carpet along with celebrations daily. Join us for great cinema at the 35th celebration of the Boston Film Festival.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Section 2 News using Card Classes -->	
+	<div class="container mt-3"><h2>NEWS</h2>
+		<div class="row">	
+			
+			<div class="col-12 col-md-4 col-lg-3 mt-3" data-toggle="modal" data-target="#Modal">
+				<div class="card" data-target="#Carousel" data-slide-to="0">
+					<div  data-target="#Carousel2" data-slide-to="0">
+						<img class="card-img-top" src="Images/n1.jpg" alt="News 1">
+						<div class="card-body">
+							<h5 class="card-title">Viewing Guide</h5>
+							<p class="card-text">6 new movies and TV shows Bostonians should watch...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="col-12 col-md-4 col-lg-3 mt-3" data-toggle="modal" data-target="#Modal">	
+				<div class="card" data-target="#Carousel" data-slide-to="1">
+					<div  data-target="#Carousel2" data-slide-to="1">
+						<img class="card-img-top" src="Images/n2.jpg" alt="News 1">
+						<div class="card-body">
+							<h5 class="card-title">Keeping Busy</h5>
+							<p class="card-text">When you turn off the news, turn these on...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="col-12 col-md-4 col-lg-3 mt-3" data-toggle="modal" data-target="#Modal">				
+				<div class="card" data-target="#Carousel" data-slide-to="2">
+					<div  data-target="#Carousel2" data-slide-to="2">
+						<img class="card-img-top" src="Images/n3.jpg" alt="News 1">
+						<div class="card-body">
+							<h5 class="card-title">Brian Dennehy</h5>
+							<p class="card-text">Brian Dennehy, Tony-winning stage, screen actor, dies at...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			<div class="col-12 col-md-4 col-lg-3 mt-3" data-toggle="modal" data-target="#Modal">	
+				<div class="card" data-target="#Carousel" data-slide-to="3">
+					<div  data-target="#Carousel2" data-slide-to="3">
+						<img class="card-img-top" src="Images/n4.jpg" alt="News 1">
+						<div class="card-body">
+							<h5 class="card-title">Things To Do</h5>
+							<p class="card-text">10 things to do inside in Boston this weekend...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- Modal News -->
+	<div class="container-fluid">
+		<div class="modal fade" id="Modal">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<div class="pull-left mt-2"><h2>NEWS</h2></div>
+						<button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+					</div>	
+					<div class="clearfix"></div>
+					<div class="modal-body">
+						<!-- Carousel Section 1 -->
+						<div id="Carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+							<ol class="carousel-indicators">
+							  <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+							  <li data-target="#Carousel" data-slide-to="1"></li>
+							  <li data-target="#Carousel" data-slide-to="2"></li>
+							  <li data-target="#Carousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="Images/n5.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+									  <h5>3 new movies and TV shows Bostonians should watch</h5>
+									  <p>From a Mark Wahlberg movie skipping theaters to a legal drama starring Chris Evans filmed in Massachusetts.</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="Images/n6.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h5>Keeping Busy</h5>
+										<p>When you turn off the news, turn these on.</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="Images/n7.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h5>Brian Dennehy</h5>
+										<p>Brian Dennehy, Tony-winning stage, screen actor, dies at 81.</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="Images/n8.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h5>Things To Do</h5>
+										<p>10 things to do inside in Boston this weekend.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div data-target="#Carousel2" data-slide="prev">
+								<a class="carousel-control-prev" data-target="#Carousel" role="button" data-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Previous</span>
+								</a>
+							</div>
+							<div data-target="#Carousel2" data-slide="next">
+								<a class="carousel-control-next" data-target="#Carousel" role="button" data-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="sr-only">Next</span>
+								</a>
+							</div>
+							
+						</div>
+					</div>
+					<!-- Carousel Section 1 "after Modal-body"-->
+					<div id="Carousel2" class="carousel slide ml-3" data-ride="carousel" data-interval="5000">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<h5>3 new movies and TV shows Bostonians should watch</h5>
+								<p>With movie theaters closed for the time being, almost every planned 2020 summer blockbuster is now facing a late 2020 or 2021 release date due to the coronavirus. Luckily, streaming platforms are still putting out plenty of entertainment in the interim, with scores of new shows and movies, including some films that were supposed to hit theaters first. The latest to lose out on its theatrical release entirely is “Scoob!,” an update on the Scooby-Doo franchise that brings Mark Wahlberg along for the ride as well.</p>
+								<p>Beyond Wahlberg, there are plenty of new shows and movies that have local ties as well, including “Defending Jacob,” a drama from Chris Evans that was filmed all over Massachusetts.</p>
+								<p>Here are three TV shows and movies that Bostonians should know about right now.</p>
+								<h1>“Defending Jacob”</h1>
+								<iframe class="rounded mx-auto d-block w-75 mb-2" height="315" src="https://www.youtube.com/embed/XQfeoRLvfqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<p>Based on a 2012 novel of the same name by local author William Landay, “Defending Jacob” is set in Newton and concerns assistant director attorney Andy Barber (Evans) whose whole life changes when his 14-year-old son Jacob (Jaeden Martell, “It”) is accused of killing a classmate. The first instinct of Andy and his wife, Laurie (Michelle Dockery, “Downtown Abbey”), is to dismiss the charges as baseless. But as evidence against Jacob begins to mount, Andy takes matters into his own hands.</p>
+								<p>Although “Defending Jacob” wasn’t part of the initial launch of Apple TV+, the series has clearly been a priority for the company, with a source involved in the production suggesting that Apple “spared no expense” while filming. At least 29 Massachusetts towns and cities were used for filming the show in 2019, including Boston, Framingham, Lowell, Lynn, Malden, Medford, Newton, Salem, Waltham, and Worcester. Evans even dropped out of a planned lead role for the upcoming Antoine Fuqua movie “Infinite” due to scheduling conflicts with the show, with his role going to Mark Wahlberg.</p>
+								<p>How to watch: The first three episodes of “Defending Jacob” are now available on AppleTV+, with new episodes premiering each Friday until the May 29 finale.</p>
+								<h1>“Selah and the Spades”</h1>
+								<iframe class="rounded mx-auto d-block w-75 mb-2" height="315" src="https://www.youtube.com/embed/-nK6WFgdchM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<p>If you’re looking to escape reality for 90 minutes, “Selah and the Spades” will fully immerse you in the vision of first-time writer-director Tayarisha Poe. Set at the fictional Madewell boarding school (played in the film by the Academy at Penguin Hall in Wenham), “Selah” centers around Selah Summers (Lovie Simone), the 17-year-old leader of one of the school’s five underground factions who supplies the wealthy student body with booze and drugs. “Selah” doesn’t necessarily break new ground in terms of subject matter, but the film is a stylish one, and Poe makes you genuinely care about the characters and the pressures of high school hierarchy many of us long ago left behind. Along with Wenham, “Selah” was filmed in Hamilton, Peabody, Marblehead, and Newton.</p>
+								<p>How to Watch: “Selah and The Spades” is available to stream now on Amazon Prime.</p>
+								<h1>“Three Busy Debras”</h1>
+								<iframe class="rounded mx-auto d-block w-75 mb-2" height="315" src="https://www.youtube.com/embed/CtJIoMUOGa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<p>Since the end of her show “Parks and Recreation,” Burlington native Amy Poehler has been hard at work as an executive producer, identifying and elevating new faces in the comedy scene. The newest series exec-produced by Poehler is “Three Busy Debras,” an oddball comedy airing on Adult Swim about three suburban mom stereotypes all named Debra (Sandy Honig, Mitra Jouhari, and Alyssa Stonoha) living in the fictional town of Lemoncurd, Connecticut. If you’re a fan of surrealist comedy, this one is worth checking out.</p>
+								<p>How to watch: New episodes of “Three Busy Debras” air at midnight on Adult Swim (listed under Cartoon Network on your TV guide) and are available on demand on the Adult Swim website with a valid cable subscription login.</p>
+							</div>
+							<div class="carousel-item">
+								<h5>Need some stuck-inside suggestions? This is what we’re reading, watching and listening to at WatchItOutsideBostonEdition.com.</h5>
+								<p>With all the choices out there, you may need some direction. We've got you covered.</p>
+								<p>Even if you’re lucky enough to have a job you can do from the comfort of your own abode, let’s face it: You’re bound to have more indoors “me time” than you’re probably used to during this extended stay-at-home period we find ourselves in. Fortunately, thanks to streaming services, e-readers, and online options like Boston Public Library’s virtual library card, you have a lot of ways to while away those inside hours — and if you need some ideas as to exactly how, the Boston.com staff is happy to help. Check out the list of the books, movies, shows, albums, podcasts, and indoor activities currently keeping us occupied below.</p>
+								<p>“Why We’re Polarized,” by Ezra Klein. Don’t read it if you’re looking for an optimistic outlook on the near-term future of American government, but this books explains a lot about our current political moment — and got we got here. — Nik DeCosta-Klipa, Staff Writer</p>
+								<p>I’ve been reading, and loving, “Leadership in Turbulent Times” (2018) by Boston’s own Doris Kearns-Goodwin. The legendary historian, in alternating chapters, traces the lives of Abraham Lincoln, Teddy Roosevelt, Franklin Roosevelt, and Lyndon Johnson — dissecting the qualities that fed into their historic successes and evaluating how they overcame their failures, which in some cases were crushing. It’s fascinating, informative and, as always with Kearns-Goodwin, beautifully told. (Even if it does serve as a sobering reminder that in our own turbulent times, that kind of leadership can be awfully hard to come by.) — Peter Chianca, General Assignment Editor</p>
+							</div>
+							<div class="carousel-item">
+								<h5>Brian Dennehy, Tony-winning stage, screen actor, dies at 81</h5>
+								<p>NEW YORK (AP) — Brian Dennehy, the burly actor who started in films as a macho heavy and later in his career won plaudits for his stage work in plays by William Shakespeare, Anton Chekhov, Eugene O’Neill and Arthur Miller, has died. He was 81.</p>
+								<p>Dennehy died Wednesday night of natural causes in New Haven, Connecticut, according to Kate Cafaro of ICM Partners, the actor’s representatives.</p>
+								<p>Known for his broad frame, booming voice and ability to play good guys and bad guys with equal aplomb, Dennehy won two Tony Awards, a Golden Globe and was nominated for six Emmys. He was inducted into the American Theater Hall of Fame in 2010.</p>
+							</div>
+							<div class="carousel-item">
+								<h5>10 things to do inside in Boston this weekend</h5>
+								<p>Make the best of being stuck in your home by trying out some of these fun things to do.</p>
+								<p>With social distancing in full effect, this week’s BosTen — as well as every subsequent edition for the foreseeable future — will be devoted to 10 things to do inside your home this week. Have an idea about what we should cover? Leave us a comment on this article or in the BosTen Facebook group, or email us at tips@boston.com.</p>
+								<p>Kick your Thursday into gear with a free TrillFit class from Outdoor Voices. A 45-minute high intensity interval training workout blended with Beyonce-inspired choreography, TrillFit will let you turn your home workout space into a dance floor, with no equipment needed. Sign up for a notification before the class starts at 5:45 p.m. through the Outdoor Voices website.</p>
+							</div>
+						</div> 
+					</div>
+				</div>							
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Form Registration -->
+	<div class="container">
+		<div class="row">
+			<div class="modal fade" id="ModalForm">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<div class="pull-left">Registration</div>
+							<button type="button" class="close btn btn-danger" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span>X</button>
+						</div>	
+						<div class="clearfix"></div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="firstname">First Name:</label>
+								<input type="text" class="form-control" placeholder="First Name" id="firstname">
+								<label for="lastname">Last Name:</label>
+								<input type="text" class="form-control" placeholder="Last Name" id="lastname">
+								<label for="username">Username:</label>
+								<input type="text" class="form-control" placeholder="Username" id="username" required>
+								<label for="email">e-mail:</label>
+								<input type="text" class="form-control" placeholder="e-mail" id="e-mail" required>
+								<label for="password">Password:</label>
+								<input type="text" class="form-control" placeholder="Password" id="password" required>
+							</div>
+							<button type="submit" class="btn btn-primary pull-left" data-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary float-right" data-dismiss="modal" data-toggle="modal" data-target="#congrats">Register</button>	
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>	
+	<!-- Modal Form Login -->	
+	<div class="container">
+		<div class="row">
+			<div class="modal fade" id="ModalFormLogin">
+				<div class="modal-dialog modal-md">
+					<div class="modal-content">
+						<div class="modal-header">
+							<div class="pull-left">Login</div>
+							<button type="button" class="close btn btn-danger" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span>X</button>
+						</div>	
+						<div class="clearfix"></div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for="username">Username:</label>
+								<input type="text" class="form-control" placeholder="Username" id="username" required>
+								<label for="password">Password:</label>
+								<input type="text" class="form-control" placeholder="Password" id="password" required>
+							</div>
+							<button type="submit" class="btn btn-primary pull-left" data-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary float-right" data-dismiss="modal">Login</button>	
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- Alert Success when registration complete-->	
+	<div class="container">
+		<div class="row">
+			<div class="modal fade mt-5" id="congrats"}>
+				<div class="modal-dialog modal-md">
+					<div class="modal-content">
+						<div class="clearfix"></div>
+						<div class="modal-body mt-3">
+							<div class="alert alert-success alert-dismissible fade show text-center" role="alert" data-toggle="collapse">Congratulations!!! You sucessfully registered
+							</div>			
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- Footer -->	
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<ul class="list-inline text-center">
+					<li class="list-inline-item"><a class="text-info text-decoration-none" href="https://www.boston.com/section/news" target="_blank">Boston's New's</a></li>
+					<li class="list-inline-item"><a class="text-info text-decoration-none" href="https://www.boston.gov/parks/public-garden" target="_blank">Boston Public Garden</a></li>
+					<li class="list-inline-item"><a class="text-info text-decoration-none" href="https://twitter.com/" target="_blank"><img alt="Twitter" src="Images/twitter.png"></li>
+					<li class="list-inline-item"><a class="text-info text-decoration-none" href="https://www.instagram.com/" target="_blank"><img alt="Instagram" src="Images/insta.png"></li>
+					<li class="list-inline-item"><a class="text-info text-decoration-none" href="https://www.facebook.com/" target="_blank"><img alt="Facebook" src="Images/facebook.png"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- Scripts -->	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
